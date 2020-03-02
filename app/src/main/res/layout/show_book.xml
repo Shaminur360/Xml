@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradiant"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/aaa"
+        android:layout_above="@+id/aa"
+        android:layout_below="@+id/img"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_15sdp"
+        android:layout_marginTop="-110dp"
+        android:layout_marginBottom="-180dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+           android:background="@drawable/bookimagepicture"
+            />
+
+
+        <EditText
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Story Book"
+            android:textSize="@dimen/_20sdp"
+            />
+        <EditText
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bangla Acadami"
+            android:textSize="@dimen/_20sdp"
+            />
+        <EditText
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adnan AL Nowshad"
+            android:textSize="@dimen/_20sdp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exchange"
+            android:textSize="@dimen/_25sdp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polytical Book"
+                android:textSize="@dimen/_15sdp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Historical Book"
+                android:textSize="@dimen/_15sdp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poeat Book"
+                android:textSize="@dimen/_15sdp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English Book"
+                android:textSize="@dimen/_15sdp"/>
+        </RadioGroup>
+        <Button
+            android:layout_width="@dimen/_120sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_height="@dimen/_49sdp"
+            android:text="Submit"
+            android:textSize="@dimen/_20sdp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
